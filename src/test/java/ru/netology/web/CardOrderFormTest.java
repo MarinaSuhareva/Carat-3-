@@ -15,7 +15,7 @@ public class CardOrderFormTest {
 
         open("http://localhost:9999");
         SelenideElement form = $(".form");
-        form.$("[data-test-id = 'name'] input").setValue("Marina Marina");
+        form.$("[data-test-id = 'name'] input").setValue("Марина Цветаева");
         form.$("[data-test-id = 'phone'] input").setValue("+79876543210");
         form.$("[data-test-id = 'agreement']").click();
         form.$("button").click();
